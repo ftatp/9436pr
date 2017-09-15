@@ -1,4 +1,4 @@
-package com.example.edwin.traveling.System;
+package com.example.edwin.traveling.System.System;
 
 /**
  * Created by Edwin on 2017-09-15.

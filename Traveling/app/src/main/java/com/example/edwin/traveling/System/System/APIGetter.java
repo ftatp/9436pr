@@ -1,11 +1,10 @@
-package com.example.edwin.traveling.System;
+package com.example.edwin.traveling.System.System;
 
 /**
  * Created by Edwin on 2017-09-15.
  */
 
 import java.util.ArrayList;
-import java.util.Objects;
 
 public class APIGetter extends Thread {
     public static final int ADJ_PLACE=1;
