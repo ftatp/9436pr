@@ -36,7 +36,15 @@ public class APIGetter extends Thread {
     @Override
     public void run(){
         switch(mode_dataType){
-
+            case ADJ_FESTIVAL:
+                result = TourAPIData.getInstance().getAdjacencyFestival((float) parameter.get(0), (float) parameter.get(1));
+                break;
+            case ADJ_PLACE:
+                result = TourAPIData.getInstance().getAdjacencyPlace((float) parameter.get(0), (float) parameter.get(1));
+                break;
+            case OVERVIEW:
+                result = TourAPIData.getInstance().getOverview((String) parameter.get(0));
+                break;
         }
     }
 }
